@@ -32,7 +32,6 @@ RUN easy_install pip
 
 # install uwsgi now because it takes a little while
 RUN pip install uwsgi
-
 # setup all the configfiles
 RUN echo "daemon off;" >> /etc/nginx/nginx.conf
 COPY nginx-app.conf /etc/nginx/sites-available/default
