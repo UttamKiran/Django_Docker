@@ -13,7 +13,6 @@
 # limitations under the License.
 
 FROM ubuntu:14.04
-
 MAINTAINER Dockerfiles
 
 # Install required packages and remove the apt packages cache when done.
